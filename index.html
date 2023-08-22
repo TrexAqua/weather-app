@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Weather App ☁️</title>
+</head>
+<body>
+    <main>
+        <div id="main-container">
+            <div id="search_weather" class="sub-container">
+                <input id="search_weather_input"/>
+                <i id="search_weather_button" class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div id="weather_image" class="sub-container">
+                <img class="weather_indicator" src="./images/clear.png"/>
+
+            </div>
+            <div id="weather_info" class="sub-container">
+                <h1 id="weather_info_temp">7℃</h1>
+                <h2 id="weather_info_city">New York</h2>
+            </div>
+            <div id="weather_humid" class="sub-container">
+                <div class="weather_humid_info">
+                    <i class="fa-solid fa-droplet"></i>                
+                    <div>
+                        <h3 id="weather_humid_info_humidity">48%</h3>
+                        <h5>Humidity</h5>
+                    </div>
+                </div>
+                <div class="weather_humid_info">
+                    <i class="fa-solid fa-wind"></i>
+                    <div>
+                        <h3 id="weather_humid_info_wind">20.29 Km/h</h3>
+                        <h5>Wind Speed</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./main.js"></script>
+
+</body>
+</html>
